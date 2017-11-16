@@ -1,0 +1,60 @@
+<script
+src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+crossorigin="anonymous"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="darkly.min.css">
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-3">Railroad Epistemology</h1>
+      <!-- αποφύγετε όλα τα γεγονότα -->
+      <p class="lead"><i> αποφύγετε όλα τα γεγονότα</i></p>
+      <!-- <p class="lead">Emancipating the minds of delusory bigots through honest and cordial discussions</p> -->
+    </div>
+  </div>
+
+<form>
+  <div class="col-md-5">
+      <div class="form-group">
+        <label for="message-text1" class="form-control-label">Inferior Street Epistemology</label>
+        <textarea class="form-control" id="message-text1" rows="10"></textarea>
+      </div>
+  </div>
+</form>
+<div class="col-md-2">
+  <p></p><p></p>
+   == <button type="button" class="btn btn-primary active" data-bind="click:selectTargetGroupNew">R A T I O C I N A T E </button>==>
+</div>
+  <div class="col-md-5">
+    <div class="form-group">
+      <label for="message-text2" class="form-control-label">Superior Railroad Epistemology</label>
+      <textarea class="form-control" id="message-text2" rows="10" readonly></textarea>
+    </div>
+  </div>
+</div>
+
+<script>
+  var lincolnize = (inferiorText) => {
+    let translate_dict = {
+      "Christianity": "Lincolnism",
+      "christianity": "lincolnism",
+      "Monotheistic": "Presidential",
+      "monotheistic": "presidential",
+      "extraordinary claims require extraordinary evidence":"presidential claims require presidential evidence",
+      "Extraordinary claims require extraordinary evidence":"Presidential claims require presidential evidence",  
+      "Religiousity" : "Tendency to believe in bearded-warrior emancipators",
+      "religiousity":"tendency to believe in bearded-warrior emancipators",
+      "I just believe in one less god than you":"I just believe in one less president than you",
+
+    };
+    translate_dict = translate_dict.sort(function(item1,item2){
+      return item1.contains(item2);
+    });
+    console.log(translate_dict);
+  };
+</script>
